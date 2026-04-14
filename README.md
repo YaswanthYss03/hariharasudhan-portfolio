@@ -44,6 +44,18 @@ To set your receiving address, update `recipientEmail` in:
 
 - `src/components/contact/Form.jsx`
 
+## Deploy on Vercel
+
+1. Push this project to GitHub.
+2. Import the repository in Vercel.
+3. Use these settings:
+	- Framework Preset: `Vite`
+	- Build Command: `npm run build`
+	- Output Directory: `dist`
+4. Make sure `VITE_REPO_NAME` is empty for root deployment.
+
+This project includes `vercel.json` with SPA rewrites so page refresh and deep links work correctly.
+
 ## Author
 
 ```
